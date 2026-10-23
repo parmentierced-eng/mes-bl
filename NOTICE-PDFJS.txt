@@ -1,0 +1,9 @@
+Mes BL inclut PDF.js 5.6.205 de Mozilla et ses contributeurs.
+Projet : https://mozilla.github.io/pdf.js/
+Sources de la distribution : https://github.com/mozilla/pdfjs-dist
+Licence : Apache License, Version 2.0.
+La copie de la licence est fournie dans PDFJS-LICENSE.txt pour l'application portable
+et dans app/vendor/pdfjs/LICENSE pour les sources.
+
+Les distributions publiques pdf.mjs et pdf.worker.mjs sont incluses sans modification,
+encodées dans le fichier HTML pour une utilisation locale sans connexion.
