@@ -23,7 +23,7 @@ Aucune installation ou connexion nécessaire après téléchargement. Le fichier
 - Poids individuels et groupés, cartons, palettes et observations.
 - Impression unitaire ou groupée A4 et PDF via le navigateur.
 - Personnalisation du nom, du logo, des couleurs et des coordonnées de l’entreprise. Le logo apparaît sur les BL et voyage dans les sauvegardes JSON.
-- Import des BL Goldschmaus, Cordts, Unifleisch, Färber et Ulmer Fleisch aux formats pris en charge : lecture PDF ou OCR local, contrôle et correction, classement mémorisé et doublons bloqués.
+- Import de BL fournisseurs aux formats pris en charge : lecture PDF ou OCR local, contrôle et correction, classement mémorisé et doublons bloqués.
 - Sauvegardes JSON, archives hebdomadaires et report du stock restant.
 
 ## Confidentialité
@@ -45,7 +45,7 @@ Node.js 18 ou ultérieur suffit, sans installation de paquets. Les licences des 
 
 ## Limites
 
-Application portable dans un navigateur, sans installateur natif ni synchronisation entre PC. Les scans des formats reconnus passent par un OCR local : vérifier et corriger chaque référence, date, carton et poids avant validation. Les formats non reconnus et Steinemann ne sont pas encore pris en charge. Vérifier les contrôles et l’aperçu avant impression. Pour retirer les mentions ajoutées par le navigateur, décocher **En-têtes et pieds de page** dans les paramètres d’impression.
+Application portable dans un navigateur, sans installateur natif ni synchronisation entre PC. Les scans des formats reconnus passent par un OCR local : vérifier et corriger chaque référence, date, carton et poids avant validation. Les formats non reconnus ne sont pas encore pris en charge. Vérifier les contrôles et l’aperçu avant impression. Pour retirer les mentions ajoutées par le navigateur, décocher **En-têtes et pieds de page** dans les paramètres d’impression.
 
 ## Mise à jour 1.1.0
 
@@ -53,4 +53,4 @@ Avant de remplacer le fichier HTML, exporter une sauvegarde JSON. Fermer l’app
 
 Dans **Personnalisation → Logo de l’entreprise**, choisir un PNG, JPEG ou WebP (5 Mo maximum), vérifier l’aperçu puis enregistrer. Le logo peut être remplacé ou supprimé ; aucun logo personnel n’est intégré aux fichiers distribués.
 
-Pour les nouveaux imports fournisseurs, le document source est affiché et les champs sont modifiables avant classement. Les CMR et attestations ne sont pas additionnés au BL détaillé. Pour Ulmer, sélectionner le fournisseur bœuf/porc ; les cartons proviennent des lignes d’emballage. Pour Cordts, un écart de total de 0,01 kg est signalé et toléré ; les poids des lignes restent la base du stock.
+Pour les nouveaux imports fournisseurs, le document source est affiché et les champs sont modifiables avant classement. Les CMR et attestations ne sont pas additionnés au BL détaillé. Selon le format, sélectionner la catégorie du fournisseur et distinguer les cartons des unités de marchandise. Un éventuel écart d’arrondi de 0,01 kg est signalé ; les poids des lignes restent la base du stock.
