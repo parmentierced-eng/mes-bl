@@ -5,7 +5,7 @@
 - Démarrage vierge : clients, fournisseurs, stocks, réceptions et archives vides.
 - Aucun logo ou document métier copié dans cette édition.
 - Stockage distinct de l’édition privée ; absence de lecture automatique de ses données vérifiée dans Edge.
-- Adaptateur Goldschmaus conservé en tant que format de fichier public pris en charge, sans fournisseur ni réception préchargés.
+- Adaptateurs de formats fournisseurs, sans fournisseur ni réception préchargés.
 - Tests : calculs de stock, import avec données fictives, six palettes, nom, coordonnées, persistance, export JSON et BL personnalisés.
 - Aucun appel HTTP/HTTPS pendant le parcours de test hors ligne.
 
